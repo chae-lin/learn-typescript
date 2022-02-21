@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    //변환할때의 기본적인 옵션
+    "allowJs": true,
+    //프로젝트에 자바스크립트를 허용하겠다
+    "checkJs": true,
+    //@ts-check 와 같은 역활
+    "noImplicitAny": true
+    //모든 타입에 대해 any라는 기본적인 타입이라도 넣어야한다. (true로 지정되어 있는 경우)
+  }
+}
