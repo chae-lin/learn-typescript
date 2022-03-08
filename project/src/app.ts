@@ -1,6 +1,3 @@
-//  @ts-check
-// JSDoc 자바스크립트 파일을 ts효과가 나도록 typescrit 랭기지 서버거 활성화 됨.
-
 // utils
 function $(selector) {
   return document.querySelector(selector);
@@ -40,18 +37,6 @@ let isDeathLoading = false;
 let isRecoveredLoading = false;
 
 // api
-
-/**
- *
- * @typedef {object} CovidSummart
- * @property {Array<object>} Country
- */
-
-/**
- *
- * @returns {Promise<CovidSummart>}
- */
-
 function fetchCovidSummary() {
   const url = "https://api.covid19api.com/summary";
   return axios.get(url);
